@@ -1,1 +1,1 @@
-console.log('It is Monday')
+console.log('WHy wont you commit')
