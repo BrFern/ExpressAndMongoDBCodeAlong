@@ -31,7 +31,7 @@ function Register() {
         } 
 
         dispatch(reset())
-    }, [user, isError, isSuccess, message, navigate, dispatch,])
+    }, [user, isError, isSuccess, message, navigate, dispatch])
 
     const onChange = (e) => {
         setFormData((prevState) => ({
@@ -59,7 +59,7 @@ function Register() {
         return <Spinner />
     }
 
-  return <>
+  return (<>
   <section className = "Heading">
     <h1>
         <FaUser /> Register
@@ -115,7 +115,7 @@ function Register() {
     </form>
   </section>
   </>
-  
+  )
 }
 
 export default Register
